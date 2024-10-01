@@ -1,0 +1,8 @@
+first = int(input("enter first number: "))
+second = int(input("enter second number: "))
+print("first equals second: ",first==second)
+print("first is less: ",first<second)
+print("first is more: ",first>second)
+print("first is equal or less: ",first<=second)
+print("first is equal or more: ",first>=second)
+print("first doesnt equal: ",first!=second)
