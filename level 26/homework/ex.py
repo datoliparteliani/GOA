@@ -17,7 +17,7 @@ def triangles():
         goto(x, y)
         pendown()
 
-        for j in range(3):
+        for i in range(3):
             forward(20)
             left(120)
 
