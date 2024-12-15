@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Sylfaen;
+    src: url(./assets/fonts/Sylfaen/bpg_glaho_sylfaen.ttf);
+}
+
+body {
+    text-align: center;
+    background-color: #ff8b5e;
+}
+
+.div1 {
+    font-family: Sylfaen;
+}
