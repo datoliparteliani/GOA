@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9c7242;
+    text-align: center;
+}
+
+.div1 {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 12px;
+}
+
+.div2 {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.button1 {
+    width: 100px;
+    background-color: #b87427;
+    border-color: #4b2800;
+}
