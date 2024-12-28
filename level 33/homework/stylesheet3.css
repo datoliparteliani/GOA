@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div2 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: red solid;
+}
