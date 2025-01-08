@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image_container {
+    background-image: url(./assets/images/image\ copy\ 3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    margin: 34% auto auto 89.6%;
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    background-image: url(./assets/images/image\ copy\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.div1 {
+    color: #ffae00;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
