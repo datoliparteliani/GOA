@@ -29,10 +29,10 @@ def take_out_money(user, amount):
         print(f"{user[0]} has insufficient balance to take out {amount} GEL.")
 
 def gel_to_usd(amount, rate=2.81):
-    return round(amount / rate, 2)
+    return round(amount / rate)
 
 def usd_to_gel(amount, rate=2.81):
-    return round(amount * rate, 2)
+    return amount * rate
 
 user1 = create_user("name1", "surname1", 1999, "password123", "name1@example.com", 500)
 user2 = create_user("name2", "surname2", 2000, "password456", "name2@example.com", 300)
