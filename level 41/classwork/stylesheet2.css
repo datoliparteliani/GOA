@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table1 {
+    border-collapse: collapse;
+    border-color: red;
+}
+
+tr:first-child {
+    background-color: rgb(139, 0, 139);
+    color: rgb(255, 255, 255);
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(255, 248, 220);
+}
+
+td,
+th {
+    padding: 5px 10px;
+}

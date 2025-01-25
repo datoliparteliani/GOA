@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-color: rgb(243, 243, 243);
+    width: 80%;
+}
+
+td, th {
+    text-align: start;
+    padding: 10px 10px;
+}
+
+tr:first-child {
+    background-color: rgb(1, 152, 122);
+    color: rgb(255, 255, 255);
+}
+
+tr:not(:first-child):hover {
+    background-color: rgb(221, 221, 221);
+}

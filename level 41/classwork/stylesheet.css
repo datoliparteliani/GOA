@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    font-family: "Roboto", serif;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+nav {
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li:hover {
+    background-color: rgb(192, 192, 192);
+    border-radius: 6px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 15px;
+    font-weight: 700;
+}
+
+nav ul li a:link {
+    color: green;
+}
+
+.button1 {
+    width: 250px;
+    height: 70px;
+    background-color: black;
+    border-color: rgb(255, 255, 255);
+}
+
+.button1:hover {
+    width: 250px;
+    height: 70px;
+    background-color: rgb(41, 41, 41);
+    border-color: rgb(255, 255, 255);
+}
+
+.button1 a {
+    text-decoration: none;
+    font-weight: 800;
+    color: aliceblue;
+    font-size: 17px;
+}
+
+.ul1 {
+    color:rgb(192, 192, 192);
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ul1 li {
+    list-style: none;
+    padding: 10px 20px;
+}
