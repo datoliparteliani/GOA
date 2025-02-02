@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(125deg, rgba(255, 238, 163, 0.5), rgba(255, 255, 255, 0.5));
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-bottom: 7px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 {
+    margin-bottom: 7px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+hr {
+    margin: 0;
+}
+
+.div1 {
+    padding: 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+}
+
+.button1 {
+    background-color: black;
+    border: 1px solid green;
+    margin: 10px;
+    padding: 20px;
+}
+
+.button1 a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.div2 {
+    padding: 25px 0;
+}
+
+.div1,
+.div2 {
+    background: linear-gradient(90deg, rgba(95, 43, 0, 0.4), rgba(0, 66, 104, 0.4));
+    color: rgb(204, 255, 248);
+}
+
+nav {
+    background-color: rgba(80, 80, 80, 0.8);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 10px 20px;
+    margin: 10px 70px;
+}
+
+nav ul li:hover {
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.div3 {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1 {
+    padding: 25px 0 40px;
+}

@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgb(102, 255, 102), rgb(127, 255, 212));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input[type="text"] {
+    padding: 10px 5px;
+    outline: none;
+    border: 1px solid green;
+    color: seagreen;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(173, 216, 230, 0.5), rgba(75, 255, 144, 0.5));
+}
+
+input[type="email"] {
+    padding: 10px 5px;
+    outline: none;
+    border: 1px solid green;
+    color: seagreen;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(173, 216, 230, 0.5), rgba(75, 255, 144, 0.5));
+}
+
+input[type="password"] {
+    padding: 10px 5px;
+    outline: none;
+    border: 1px solid green;
+    color: seagreen;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(173, 216, 230, 0.5), rgba(75, 255, 144, 0.5));
+}
+
+.form1 {
+    border: 5px solid black;
+    padding: 85px 0;
+    padding-top: 70px;
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    font-weight: 600;
+}
+
+.h2-1 {
+    padding-bottom: 20px;
+    font-size: 25px;
+}
