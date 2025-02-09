@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.div1 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+.div2 {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
+
+.div3 {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+}
+
+.div4 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+}

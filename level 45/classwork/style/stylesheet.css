@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.div1 {
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+.div2 {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}
