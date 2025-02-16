@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.div1 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}

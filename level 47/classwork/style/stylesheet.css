@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.div2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.div3 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+
+.div4 {
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+}
+
+.div5 {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+.div6 {
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+}
+
+.div7 {
+    width: 150px;
+    height: 150px;
+    background-color: darkred;
+}
+
+.div8 {
+    width: 150px;
+    height: 150px;
+    background-color: darkblue;
+}
+
+.div9 {
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+}
