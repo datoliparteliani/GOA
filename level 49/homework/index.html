@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Conference ticket generator</title>
+
+  <link rel="stylesheet" href="./style/rest.css">
+  <link rel="stylesheet" href="./style/stylesheet.css">
+</head>
+
+<body>
+
+  <!-- Form starts -->
+  <img src="./assets/images/logo-full.svg" alt="" class="img2">
+
+  <div class="hs">
+    <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+    <br>
+    <h2>Secure your spot at next year's biggest coding conference.</h2>
+  </div>
+
+  <div class="upload-box">
+    <p class="label1">Upload Avatar</p>
+    <label for="avupload" class="upload-label">
+      <input type="file" name="avupload" id="avupload" hidden>
+      <div class="upload-area">
+        <img src="./assets/images/icon-upload.svg" alt="upload icon" class="img1">
+        <p>Drag and drop or click to upload</p>
+      </div>
+      <div class="small-icon">
+        <img src="./assets/images/icon-info.svg" alt="info icon">
+        <p>Upload your photo (JPG or PNG, max size: 500KB).</p>
+      </div>
+    </label>
+  </div>
+
+  <form action="" class="form1">
+    <label for="fname">Full Name</label>
+    <input type="text" name="fname" id="fname" class="input1" required>
+
+    <label for="email1">Email Address</label>
+    <input type="email" name="email1" id="email1" placeholder="example@email.com" class="input1" required>
+
+    <label for="guser">GitHub Username</label>
+    <input type="text" name="guser" id="guser" placeholder="@yourusername" class="input1" required>
+  </form>
+
+  <button>Generate My Ticket</button>
+  <!-- Form ends -->
+</body>
+
+</html>

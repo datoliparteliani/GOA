@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url(/homework/assets/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    margin: 0 auto;
+    background: url(/homework/assets/images/pattern-lines.svg), url(/homework/assets/images/background-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Inconsolata";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 1440px;
+    color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 55px;
+    font-weight: 800;
+    width: 850px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.label1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 {
+    padding: 7px;
+    border: solid 1px hsl(246, 27%, 26%);
+    border-radius: 10px;
+    background-color: hsla(245, 23%, 38%, 0.5);
+}
+
+.img2 {
+    padding-bottom: 30px;
+}
+
+.upload-box {
+    padding: 20px;
+}
+
+.upload-area {
+    padding: 30px 60px;
+    border: 2px dashed hsl(247, 42%, 64%);
+    border-radius: 10px;
+    text-align: center;
+    background-color: hsla(247, 26%, 43%, 0.3);
+}
+
+.small-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.small-icon p {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.input1 {
+    padding: 15px 135px;
+    border: 2px dashed hsl(247, 42%, 64%);
+    border-radius: 10px;
+    background-color: hsla(247, 26%, 43%, 0.3);
+}
+
+.form1 {
+    gap: 10px;
+    padding: 20px;
+}
+
+button {
+    font-weight: 700;
+    padding: 15px 163px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(7, 88%, 68%);
+    color: hsl(248, 70%, 10%);
+}
