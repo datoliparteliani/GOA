@@ -110,3 +110,7 @@ button {
     background-color: hsl(7, 88%, 68%);
     color: hsl(248, 70%, 10%);
 }
+
+input {
+    color: hsl(247, 42%, 64%);
+}
