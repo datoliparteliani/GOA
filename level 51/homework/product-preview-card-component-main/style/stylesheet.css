@@ -83,6 +83,10 @@ button {
     color: white;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 button:active {
     background-color: #1a4031;
 }
