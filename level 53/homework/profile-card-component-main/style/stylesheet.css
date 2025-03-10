@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #19a1ad;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: -20% 1550%, 120% -1550%;
+}
+
+.container {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.darker-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.lighter-text {
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.age {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.name-age {
+    display: flex;
+    gap: 10px;
+}
+
+.downside {
+    background-color: white;
+}
+
+.downside .naqp {
+    padding-bottom: 30px;
+}
+
+.upside {
+    height: 95px;
+}
+
+.pfp img {
+    border-radius: 50%;
+    border: solid 5px white;
+    overflow: hidden;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.followers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.likes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.naqp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pfp-na {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 20px;
+}
