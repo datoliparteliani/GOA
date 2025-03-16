@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.sedans {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.suvs {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.luxury {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.sedans-con {
+    background-color: #e28525;
+    width: 300px;
+    height: 500px;
+}
+
+.suvs-con {
+    background-color: #016972;
+    width: 300px;
+    height: 500px;
+}
+
+.luxury-con {
+    background-color: #00403f;
+    width: 300px;
+    height: 500px;
+}
+
+h2 {
+    font-family: "Big Shoulders", sans-serif;
+    color: #f2f2f2;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 30px 0;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 100px;
+    line-height: 25px;
+}
+
+img {
+    padding-top: 50px;
+}
+
+button {
+    font-family: "Lexend Deca", sans-serif;
+    background-color: white;
+    border: solid white 2px;
+    border-radius: 25px;
+    width: 130px;
+    height: 45px;
+}
+
+.sedans-con .sedans button {
+    color: #e28525;
+}
+
+.suvs-con .suvs button {
+    color: #016972;
+}
+
+.luxury-con .luxury button {
+    color: #00403f;
+}
+
+.sedans-con .sedans button:hover {
+    color: white;
+}
+
+.suvs-con .suvs button:hover {
+    color: white;
+}
+
+.luxury-con .luxury button:hover {
+    color: white;
+}
+
+button:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
