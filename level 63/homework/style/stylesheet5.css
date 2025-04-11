@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.ball {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    animation: v;
+    animation-timing-function: ease;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes v {
+    0% {
+        transform: translate(0px, 0px);
+        background-color: red;
+    }
+
+    25% {
+        transform: translate(250px, -800px);
+        background-color: blue;
+    }
+
+    50% {
+        transform: translate(0px, 0px);
+        background-color: yellow;
+    }
+
+    75% {
+        transform: translate(-250px, -800px);
+        background-color: green;
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+        background-color: red;
+    }
+}

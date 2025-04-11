@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Commissioner", sans-serif;
+    background: url(../images/logo.svg), url(../images/image-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 10%, 100%;
+    background-position: 14em 4em, 0% 0%;
+    background-color: #ebebeb;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    width: 1000px;
+    margin-top: 400px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.blue {
+    color: #3cb4ab;
+}
+
+.heavy {
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav {
+    align-self: flex-end;
+    margin-top: 4em;
+    margin-right: 11em;
+}
+
+nav ul {
+    display: flex;
+    align-self: flex-end;
+    gap: 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    font-family: "Commissioner", sans-serif;
+    border: none;
+    border-radius: 50px;
+    width: 250px;
+    height: 55px;
+    background-color: #3cb4ab;
+    color: white;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #157a74;
+    cursor: pointer;
+}
+
+.bicon {
+    display: flex;
+}
+
+.bicon-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    color: hsl(0, 0%, 48%);
+}
+
+.bicon-con:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.bicon-con p {
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-con {
+    background-color: white;
+    border-radius: 15px;
+    width: 1000px;
+    height: 300px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin: 0 auto;
+    padding-top: 3em;
+    width: 800px;
+}
+
+.mid-con {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 1000px;
+    height: 250px;
+}
+
+.mid {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 250px;
+    gap: 10em;
+}
+
+.stock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bottom-con {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 1000px;
+    height: 1500px;
+}
+
+.bottom {
+    margin: 0 auto;
+    width: 800px;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    line-height: 35px;
+}
+
+.apart1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apart2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bamboo-con {
+    width: 800px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.bes-con {
+    width: 800px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.mse-con {
+    width: 800px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.bamboo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 750px;
+    height: 300px;
+    gap: 45px;
+}
+
+.bes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 750px;
+    height: 300px;
+    gap: 45px;
+}
+
+.mse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 750px;
+    height: 300px;
+    gap: 45px;
+    opacity: 0.5;
+}
+
+.mse button {
+    background-color: #cbcbcb;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mcl-con {
+    margin-top: -75px;
+}

@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    transition: all 300ms ease;
+    animation: dance;
+    animation-timing-function: ease;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dance {
+    0% {
+        background-color: skyblue;
+        width: 400px;
+        height: 500px;
+    }
+
+    25% {
+        background-color: blue;
+        width: 450px;
+        height: 550px;
+    }
+
+    50% {
+        background-color: greenyellow;
+        width: 350px;
+        height: 450px;
+    }
+
+    75% {
+        background-color: red;
+        width: 450px;
+        height: 550px;
+    }
+
+    100% {
+        background-color: skyblue;
+        width: 400px;
+        height: 500px;
+    }
+}

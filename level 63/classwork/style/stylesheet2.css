@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+}
+
+.wave {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    transition: all 500ms ease;
+    animation: wave;
+    animation-timing-function: ease;
+    animation-duration: 300ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(30deg);
+    }
+}
