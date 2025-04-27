@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.box {
+    background-color: rgb(112, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    top: 7rem;
+    animation: movin 1.5s ease;
+    animation-iteration-count: 1;
+    border: solid 3px rgb(255, 0, 0);
+}
+
+.box-con {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 1rem;
+    min-height: 50vh;
+}
+
+@keyframes movin {
+    0% {
+        top: 0;
+        opacity: 0;
+    }
+
+    50% {
+        top: 7rem;
+        opacity: 1;
+        border: solid 3px rgb(255, 0, 0);
+    }
+}
+
+@media (max-width: 1000px) {
+    .box-con {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 500px) {
+    .box-con {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+body {
+    font-family: "Barlow", sans-serif;
+    background: url(../images/logo.svg), url(../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 10%, 100%;
+    background-position: 50px 60px, 0px 0px;
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 678px;
+}
+
+.heros {
+    padding: 50px 70px;
+    display: flex;
+    justify-content: end;
+}
+
+.heros nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.heros nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    height: 40px;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #6fcfff;
+    color: white;
+    cursor: pointer;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imgs {
+    display: flex;
+}
+
+.imgs img {
+    width: 475px;
+}
+
+h1 {
+    padding-top: 150px;
+    letter-spacing: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 90px;
+    color: white;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    gap: 15em;
+}
+
+.test-ppl {
+    display: flex;
+    gap: 30px;
+}
+
+.client-font {
+    font-family: "Fraunces", serif;
+    letter-spacing: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.twopics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.graphic-design {
+    background: url(../images/desktop/image-graphic-design.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photography {
+    background: url(../images/desktop/image-photography.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #90d4c5;
+    height: 400px;
+}
+
+footer nav ul {
+    display: flex;
+    gap: 60px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: #2b7264;
+}
