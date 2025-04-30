@@ -1,0 +1,1 @@
+count_by = lambda x, n : [x * num for num in range(1, n + 1)]
