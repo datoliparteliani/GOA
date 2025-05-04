@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    gap: 1.5em;
+}
+
+.card {
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+.two-columns {
+    grid-column: span 2;
+}
