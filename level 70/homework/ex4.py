@@ -1,0 +1,1 @@
+sum_str = lambda a, b: str(int(a or "0") + int(b or "0"))

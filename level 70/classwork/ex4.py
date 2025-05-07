@@ -1,0 +1,1 @@
+find_average = lambda numbers : sum(numbers) / len(numbers) if numbers else 0

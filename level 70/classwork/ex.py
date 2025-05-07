@@ -1,0 +1,1 @@
+sum_array = lambda a : sum(a)
