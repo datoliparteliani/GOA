@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    height: 50vh;
+    gap: 1.5em;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 500px;
+}

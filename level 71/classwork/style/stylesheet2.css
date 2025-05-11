@@ -1,0 +1,19 @@
+h3::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: red;
+    position: absolute;
+    left: 25px;
+}
+
+h3::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    position: absolute;
+    left: 45px;
+}

@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+    gap: 1em;
+    background-color: rgb(170, 170, 170);
+    height: 45px;
+}
+
+nav ul li {
+    padding: 7px;
+    border-radius: 5px;
+}
+
+nav ul li:hover {
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.posab {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: darkred;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.posab:hover {
+    background-color: rgb(179, 0, 0);
+    cursor: pointer;
+}
+
+.posfi {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 15px;
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.posfi:hover {
+    background-color: rgb(37, 37, 37);
+    cursor: pointer;
+}
