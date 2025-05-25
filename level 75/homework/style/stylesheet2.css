@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.form-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    background-color: rgb(202, 202, 202);
+    width: 450px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+#name {
+    box-sizing: border-box;
+    width: 400px;
+    height: 30px;
+}
+
+#email {
+    box-sizing: border-box;
+    width: 400px;
+    height: 30px;
+}
+
+#comment {
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+}
+
+.dflex {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.phleft {
+    padding-left: 10px;
+}
+
+.br5 {
+    border: solid black 1px;
+    border-radius: 5px;
+}
