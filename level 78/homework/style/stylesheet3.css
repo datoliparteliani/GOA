@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 150px;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
