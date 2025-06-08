@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div onmouseover="Big(this)" onmouseout="Normal(this)" style="background-color: green; width: 200px; height: 200px;">
+        <p>
+            onmouseover ირთვება მაშინ როცა მაუსი არის ელემენტზე გაჩერებული
+            onmouseout არის როცა მაუსი არ არის ელემენტზე
+        </p>
+    </div>
+    <div onmousedown="Big1(this)" onmouseup="Normal1(this)" style="background-color: lightgreen; width: 200px; height: 200px;" id="div1">
+        <p>
+            onmousedown არის როცა მაუსით დააჭერ ელემენტს
+            onmouseup არის როცა კლიკს აუშვებ ელემენტზე
+        </p>
+    </div>
+
+    <script src="./script3.js"></script>
+</body>
+
+</html>

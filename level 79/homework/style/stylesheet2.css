@@ -1,0 +1,8 @@
+.transition {
+    width: 100px;
+    transition: width 0.5s ease;
+}
+
+.transition:hover {
+    width: 200px;
+}
