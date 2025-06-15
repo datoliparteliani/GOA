@@ -1,0 +1,19 @@
+@media (max-width: 550px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3em;
+        width: 100px;
+    }
+
+    ul {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+li {
+    text-align: center;
+}
