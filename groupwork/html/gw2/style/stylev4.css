@@ -115,3 +115,16 @@ body {
 .bnav nav ul li a:hover {
   background-color: rgb(196, 196, 196);
 }
+
+body {
+  transition: ease 350ms;
+}
+
+.bnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
